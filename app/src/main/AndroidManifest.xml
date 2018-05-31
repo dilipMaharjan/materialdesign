@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StandAloneToolBar"></activity>
+        <activity android:name=".StandAloneToolBar" />
+        <activity android:name=".ToolBarAsActionBar"></activity>
     </application>
 
 </manifest>

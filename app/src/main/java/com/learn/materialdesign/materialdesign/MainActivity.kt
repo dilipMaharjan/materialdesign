@@ -19,4 +19,9 @@ class MainActivity : AppCompatActivity() {
     fun showStandAloneToolBar(view: View) {
         startActivity(Intent(this, StandAloneToolBar::class.java))
     }
+
+    fun showToolBarAsActionBar(view: View) {
+        startActivity(Intent(this, ToolBarAsActionBar::class.java))
+    }
+
 }
