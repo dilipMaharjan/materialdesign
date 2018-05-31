@@ -7,4 +7,7 @@
     <color name="colorControlHighlight">#EDEA0D</color>
     <color name="colorButtonNormal">#F955F3</color>
     <color name="colorControlActivated">#0cF427</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="overFlowMenuBg">#b37575</color>
 </resources>

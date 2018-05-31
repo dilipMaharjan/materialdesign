@@ -1,8 +1,5 @@
 <resources>
 
-    <style name="Theme21" parent="AppTheme">
-
-    </style>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -16,4 +13,17 @@
         <item name="colorControlActivated">@color/colorControlActivated</item>
     </style>
 
+    <style name="Theme21" parent="AppTheme">
+
+    </style>
+
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="OverFlowMenuTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/overFlowMenuBg</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
 </resources>
