@@ -24,4 +24,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, ToolBarAsActionBar::class.java))
     }
 
+    fun showContextualMenu(view: View) {
+        startActivity(Intent(this, ContextualMenu::class.java))
+    }
+
 }

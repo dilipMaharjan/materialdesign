@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".StandAloneToolBar" />
-        <activity android:name=".ToolBarAsActionBar"></activity>
+        <activity android:name=".ToolBarAsActionBar" />
+        <activity android:name=".ContextualMenu"></activity>
     </application>
 
 </manifest>
