@@ -76,4 +76,92 @@
         app:layout_constraintTop_toBottomOf="@+id/rippleBtn"
         app:srcCompat="@android:drawable/btn_star" />
 
+    <TextView
+        android:id="@+id/textExplode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text=" Explode Transition"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sharedText" />
+
+    <Button
+        android:id="@+id/explodeJava"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="explodeAnimByCode"
+        android:text="Java"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textExplode" />
+
+    <Button
+        android:id="@+id/explodeXml"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="explodeAnimByXml"
+        android:text="XML"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textExplode" />
+
+    <Button
+        android:id="@+id/slideJava"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="slideAnimByCode"
+        android:text="Slide Java"
+        app:layout_constraintEnd_toEndOf="@+id/explodeJava"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explodeJava" />
+
+    <Button
+        android:id="@+id/slideXml"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="slideAnimByXml"
+        android:text="Slide Xml"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="@+id/explodeXml"
+        app:layout_constraintTop_toBottomOf="@+id/explodeXml" />
+
+    <Button
+        android:id="@+id/fadeJava"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="fadeAnimByCode"
+        android:text="Fade Java"
+        app:layout_constraintEnd_toEndOf="@+id/slideJava"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slideJava" />
+
+    <Button
+        android:id="@+id/fadeXml"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="fadeAnimByXml"
+        android:text="Fade Xml"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fadeJava"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/slideXml" />
+
 </android.support.constraint.ConstraintLayout>
